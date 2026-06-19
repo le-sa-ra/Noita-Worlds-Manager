@@ -123,6 +123,7 @@ This is the base display of any Noita save and cannot be disabled or changed by 
   * some text saying some basic things about the backup concerning the selected save. 
   * The "Go to Backup" button will display the backup save as a "Save display". 
   * The button underneath labeled "Restore from the Backup" will copy the backup save over the current save selected.
+  <img src="README_ASSETS/backup_overview.gif" width="340" height="300" >
 
   When you are viewing a save that is a backup of another save there will be two different buttons displayed: "Go to Original" and "Update with Original". 
   * "Go to Original" will open the backups original save display.
@@ -420,6 +421,8 @@ As long as the permanent removal of entries isn't enabled under the "Save manage
 <li>RESET TO DEFAULT: This button will reset nearly ALL your settings to the way it was when you first opened the program (This does not include all your listed save entries, those will be copied over to the fresh settings that will be created. But still, maybe make a backup beforehand).</li>
 <li>RETURN: redirects you to the previous frame you were on.</li>
 </ul>
+
+***
 
 # Extra large map
 The extra large map is a zip file of almost 1/2 gb worth of Noita map images... and some scripts. If you want the extended feature for the "Death marker Map" you can download the zip for it <a href="https://drive.google.com/drive/folders/17ZEoLUdrBhiLyCSF-MiLpOwa4K4B0MVK?usp=sharing">here</a> and follow the readme instructions in the extracted folder.

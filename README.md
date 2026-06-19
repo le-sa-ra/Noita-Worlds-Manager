@@ -1,14 +1,35 @@
 <img src="assets/image/logo.png" width="450" height="150" />
 
 # Noita-Worlds-Manager
-Easily play any of your Noita saves!<br><br>
-(can show some stuff about your saves too)
+Easily play any of your Noita saves!
+
+This program is a wrapper around Noita. Instead of opening Noita directly into your usual save, you will be able to select which Noita save to play on. 
+
+<br><img src="README_ASSETS/homepage.png" width="600" height="600">
+
+This program does not mod or alter the contents of your saves in any way (unmodded runs stay unmodded, and saves with mods enabled contain the same mods). It primarily requires the ```C:/Users/%USERPROFILE%/AppData/LocalLow/Nolla_Games_Noita``` folder to be cleared, as it will move your selected saves to and from that location.
+
+(The program can show some information about each of your saves too)
+<br><img src="README_ASSETS/save_overview.gif">
 
 ## Pre-requisites:
 * [Noita](https://noitagame.com/) installed on your machine (25.Jan.2025 Build).
 * The program works by using Windows [Junctions](https://learn.microsoft.com/en-us/windows/win32/fileio/hard-links-and-junctions#junctions).
 * Make your own separate backup of your original save folder (```C:/Users/%USERPROFILE%/AppData/LocalLow/Nolla_Games_Noita```) and keep it somewhere safe!<br>
   (Always good to have a fallback copy somewhere)
+
+## Features:
+Below are listed some of the main core-functionalities the program is able to perform:
+* Overview of all saves you add to the program
+* Easily select Noita saves to play
+* **Noita Backup functionality**:
+  * create backups for saves
+  * update a backup with the save
+  * restore a save from its backup
+
+The program is mostly compatible with modded saves you may have. It leaves your saves content untouched.
+
+(You can do more with the program! You can see all the features in the [MANUAL](MANUAL.md))
 
 # Opening the program
 When first opening the program there is a good chance you may have to configure one or two things:<br>
